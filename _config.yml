@@ -1,0 +1,36 @@
+safe: true
+
+title: Mitosis - Micro-services & Infrastructure generator
+email: contact@nirbyapp.com
+description: > # this means to ignore newlines until "baseurl:"
+  "Mitosis is a micro-services' infrastructure generator based on the best technologies :
+  Yeoman, Kubernetes/Docker Swarm, Traefik, Consul, etcd, Docker, Ansible, Jenkins, Kafka, Spark Streaming,...
+  With Mitosis you focus on what matters for your product and we take care of the reest." 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: NirbyApp
+github_username:  NirbyApp
+
+# Build settings
+# @TODO to add : google_analytics_id: UA-50755011-1
+# @TODO to add : google_site_verification: onQcXpAvtHBrUI5LlroHNE_FP0b2qvFyPq7VZw36iEY
+
+repository: https://github.com/NirbyApp/generator-mitosis
+
+timezone: Europe/Paris
+
+markdown: kramdown
+# theme: minima
+
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md
