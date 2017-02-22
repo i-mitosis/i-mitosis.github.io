@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   "Mitosis is a micro-services' infrastructure generator based on the best technologies :
   Yeoman, Kubernetes/Docker Swarm, Traefik, Consul, etcd, Docker, Ansible, Jenkins, Kafka, Spark Streaming,...
   With Mitosis you focus on what matters for your product and we take care of the reest." 
-image_to_share: https://i-mitosis.github.com/assets/images/logo-mitosis.png
+image_to_share: https://i-mitosis.github.io/assets/images/logo-mitosis.png
 
 organization : Nirby-Mitosis
 
@@ -34,7 +34,7 @@ facebook_app_id: 1978319489046223
 
 repository: https://github.com/NirbyApp/generator-mitosis
 
-mitosis_website: https://i-mitosis.github.com
+mitosis_website: https://i-mitosis.github.io
 
 timezone: Europe/Paris
 
