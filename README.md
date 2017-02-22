@@ -1,1 +1,1 @@
-Public website for Mitosis - generates https://nirbyapp.github.io/mitosis
+Public website for Mitosis - generates https://i-mitosis.github.com
