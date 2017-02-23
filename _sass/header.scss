@@ -1,0 +1,29 @@
+.mitosis-header {
+
+    .navbar {
+        
+        margin-bottom: 0 !important;
+        .container-fluid {
+
+            .navbar-header {
+
+                h1 {
+                    margin-top: 2px;
+                }
+            }
+
+            .navbar {
+                &-header, &-nav {
+                    height: $mitosis-header-height;
+
+                    .github-icon-link {
+                        a {
+                            padding-top: 10px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

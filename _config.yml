@@ -1,7 +1,7 @@
 safe: true
 
 title: Mitosis - Micro-services & Infrastructure generator
-email: contact@nirbyapp.com
+email: mitosis@nirbyapp.com
 description: > # this means to ignore newlines until "baseurl:"
   "Mitosis is a micro-services' infrastructure generator based on the best technologies :
   Yeoman, Kubernetes/Docker Swarm, Traefik, Consul, etcd, Docker, Ansible, Jenkins, Kafka, Spark Streaming,...
@@ -32,7 +32,7 @@ facebook_app_id: 1978319489046223
 # @TODO to add : google_analytics_id: UA-50755011-1
 # @TODO to add : google_site_verification: onQcXpAvtHBrUI5LlroHNE_FP0b2qvFyPq7VZw36iEY
 
-repository: https://github.com/NirbyApp/generator-mitosis
+github_repository: https://github.com/NirbyApp/generator-mitosis
 
 mitosis_website: https://i-mitosis.github.io
 

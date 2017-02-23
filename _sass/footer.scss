@@ -1,0 +1,13 @@
+.mitosis-footer {
+    background-color: #2c3e50;
+    color: #fff;
+    height: $mitosis-footer-height;
+    padding: 12px 0;
+    a {
+        color: #fff;
+        &:hover {
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+}
