@@ -1,4 +1,9 @@
-.h1, .h2, .h3, h1, h2, h3 {
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -12,22 +17,25 @@ body {
     height: 100%;
     position: relative;
     font-size: 1.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    .page-content-class {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+        height: 100%;
+    }
 }
 
 // Bootstrap Wrap
 * {
     outline: none;
-}
-
-// the general app container 
-.app-container {
-    min-height: 100%;
-    position: relative;
-    padding-bottom: 0px;
-
-    .content-container {
-        margin-right: 0;
-        margin-left: 0;
-    }
-
 }
