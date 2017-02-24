@@ -9,38 +9,20 @@ h3 {
 }
 
 html {
-    height: 100%
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-    padding-top: 0px;
-    height: 100%;
-    position: relative;
+    /* Margin bottom to avoid weird problems with the footer */
+    margin-bottom: 200px;
     font-size: 1.5em;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    .page-content-class {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
-        height: 100%;
-        width:100%;
-    }
 }
 
 // Bootstrap Wrap
 * {
     outline: none;
 }
-
 
 .scroll-top {
     z-index: 1049;
@@ -57,6 +39,11 @@ body {
         line-height: 28px;
         &:focus {
             outline: 0;
+        }
+        i {
+            position: absolute;
+            right: 14px;
+            top: 13px;
         }
     }
 }
