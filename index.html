@@ -27,12 +27,168 @@ sitemap:
   class="home-container"
   >
 
-  Welcome to iMitosis the micro-services' infrastructure generator that will help you focus on your product :)
+  <div class="header-container">
 
-  <br/>
-  This site is still under construction :p But you can <a href="{{ site.github_repository }}" target="_blank">test our generator right now</a>
+    <!-- Image container -->
+    <div class="image-container">
+      <img src="/assets/images/logo-mitosis-400x111.png"/>
+    </div>
+
+    <div
+      class="value-proposition-container">
+
+      <p
+        class="value-proposition-p1">
+        Generate your micro-services' infrastructure that uses the best proven technologies !
+      </p>
+
+      <p
+        class="value-proposition-p2">
+        <b>Focus</b> on what <b>matters</b>. We take care of the infrastructure ;)
+      </p>
+
+    </div>
+
+    <!-- The test on Github button -->
+    <div class="test-ongithub-button-container">
+
+      <a href="{{ site.github_repository }}" target="_blank">
+        <div class="card dark summary-inline">
+          <div class="card-body">
+            <div class="content">
+              <div class="title"><i class="icon fa fa-github fa-2x"></i>&nbsp;&nbsp;&nbsp;Test our alpha right now</div>
+            </div>
+            <div class="clear-both"></div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- How to use section -->
+  <div class="row no-gutters how-to-use-container ">
+
+      <!-- Header -->
+      <div class="col-12 text-center how-to-use-header">
+          <h2 class="heading">All it takes ? One i-Mitosis command line</h2>
+          <hr class="star-primary">
+      </div>
+
+      <!-- First step -->
+      <div
+        class="col-12 first-step-container">
+
+        <!-- Title -->
+        <div
+          class="install-step-title-container">
+          <span>1 - Install i-Mitosis and Yeoman via npm</span>
+        </div>
+
+        <!-- The code -->
+        <div
+           class="install-step-code-container">
+
+{% highlight shell %}
+npm install -g yo
+npm install -g generator-mitosis
+{% endhighlight %}
+        </div>
+
+      </div>
+
+      <!-- Second step -->
+      <div
+        class="col-12 second-step-container">
+
+        <!-- Title -->
+        <div
+          class="install-step-title-container">
+          <span>2 - Generate your Micro-services' Infrastructure</span>
+        </div>
+
+        <!-- The code -->
+        <div
+           class="install-step-code-container">
+
+{% highlight shell %}
+yo mitosis
+{% endhighlight %}
+        </div>
+
+      </div>
+
+  </div>
+
+  <!-- Stack of technologies used by Mitosis -->
+  <div
+    class="mitosis-technologies-stack-container">
+
+    <!-- Header -->
+    <div class="col-12 text-center technologies-stack-header">
+        <h2 class="heading">The cool technologies we use</h2>
+        <hr class="star-light">
+    </div>
+
+    <!-- List of technologies -->
+    <div
+      class="row technologies-stack-list-container">
+
+      <ul class="text-center stacks">
+
+        {% for technology in site.data.technologies.builtWith %}
+        <li class="clip img-circle">
+          <a
+            href="{{ technology.website }}"
+            target="_blank">
+            <img src="{{ technology.imageLink }}">
+            <span class="title_sub_tech">{{ technology.label }}</span>
+          </a>
+        </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+  <!-- Stack of technologies that can be used with Mitosis infrastructure -->
+  <div
+    class="users-technologies-stack-container">
+
+    <!-- Header -->
+    <div class="col-12 text-center technologies-stack-header">
+        <h2 class="heading">Examples of technologies your apps can use</h2>
+        <hr class="star-light">
+    </div>
+
+    <!-- List of technologies -->
+    <div
+      class="row technologies-stack-list-container">
+
+      <ul class="text-center stacks">
+
+        {% for technology in site.data.technologies.canBeUsed %}
+        <li class="clip img-circle">
+          <a
+            href="{{ technology.website }}"
+            target="_blank">
+            <img width="100px" height="100px" src="{{ technology.imageLink }}">
+            <span class="title_sub_tech">{{ technology.label }}</span>
+          </a>
+        </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+
+  </div>
+
 
 
 </div>
-
 

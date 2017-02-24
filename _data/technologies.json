@@ -1,0 +1,127 @@
+{
+    "builtWith": [
+        {
+            "label": "Yeoman",
+            "imageLink": "/assets/images/technologies/yeoman.png",
+            "website": "https://http://yeoman.io/"
+        },
+        {
+            "label": "Kubernates",
+            "imageLink": "/assets/images/technologies/kubernates.png",
+            "website": "https://kubernetes.io/"
+        },
+        {
+            "label": "Docker Swarm",
+            "imageLink": "/assets/images/technologies/docker-swarm.png",
+            "website": "https://www.docker.com/products/docker-swarm"
+        },
+        {
+            "label": "Traefik",
+            "imageLink": "/assets/images/technologies/traefik.png",
+            "website": "https://traefik.io/"
+        },
+        {
+            "label": "Consul",
+            "imageLink": "/assets/images/technologies/consul.png",
+            "website": "https://www.consul.io/"
+        },
+        {
+            "label": "ETCD",
+            "imageLink": "/assets/images/technologies/etcd.png",
+            "website": "https://coreos.com/etcd/docs/latest/"
+        },
+        {
+            "label": "Docker",
+            "imageLink": "/assets/images/technologies/docker.png",
+            "website": "https://www.docker.com/"
+        },
+        {
+            "label": "Ansible",
+            "imageLink": "/assets/images/technologies/ansible.png",
+            "website": "https://www.ansible.com/"
+        },
+        {
+            "label": "Jenkins",
+            "imageLink": "/assets/images/technologies/jenkins.jpeg",
+            "website": "https://jenkins.io/"
+        },
+        {
+            "label": "Apache Kafka",
+            "imageLink": "/assets/images/technologies/apacha-kafka.png",
+            "website": "https://kafka.apache.org/"
+        },
+        {
+            "label": "Spark Streaming",
+            "imageLink": "/assets/images/technologies/spark_streaming.png",
+            "website": "http://spark.apache.org/streaming/"
+        },
+        {
+            "label": "Vagrant",
+            "imageLink": "/assets/images/technologies/vagrant.png",
+            "website": "https://www.vagrantup.com/"
+        },
+        {
+            "label": "Aritfactory",
+            "imageLink": "/assets/images/technologies/artifactory.png",
+            "website": "https://www.jfrog.com/open-source/"
+        },
+        {
+            "label": "Sonarqube",
+            "imageLink": "/assets/images/technologies/sonarqube.png",
+            "website": "https://www.sonarqube.org/"
+        }
+    ],
+
+    "canBeUsed": [
+        {
+            "label": "Spring 5",
+            "imageLink": "/assets/images/technologies/spring.png",
+            "website": "https://spring.io/"
+        },
+        {
+            "label": "Apache Tomcat",
+            "imageLink": "/assets/images/technologies/apache-tomcat.png",
+            "website": "http://tomcat.apache.org/"
+        },
+        {
+            "label": "Gradle",
+            "imageLink": "/assets/images/technologies/gradle.png",
+            "website": "https://gradle.org/"
+        },
+        {
+            "label": "MongoDB",
+            "imageLink": "/assets/images/technologies/mongodb.jpeg",
+            "website": "https://www.mongodb.com/"
+        },
+        {
+            "label": "NodeJs",
+            "imageLink": "/assets/images/technologies/nodejs.png",
+            "website": "https://nodejs.org/"
+        },
+        {
+            "label": "ExpressJS",
+            "imageLink": "/assets/images/technologies/expressjs.png",
+            "website": "http://expressjs.com/"
+        },
+        {
+            "label": "Redis",
+            "imageLink": "/assets/images/technologies/redis.png",
+            "website": "https://redis.io/"
+        },
+        {
+            "label": "Angular",
+            "imageLink": "/assets/images/technologies/angular.png",
+            "website": "https://angularjs.org/"
+        },
+        {
+            "label": "Akka Actors",
+            "imageLink": "/assets/images/technologies/akka-actors.png",
+            "website": "http://akka.io/"
+        },
+        {
+            "label": "Arduino",
+            "imageLink": "/assets/images/technologies/arduino.jpeg",
+            "website": "https://www.arduino.cc/"
+        }
+    ]
+}

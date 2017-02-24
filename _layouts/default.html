@@ -1,11 +1,12 @@
+<!-- The site's metadata tags, importing css styles,... -->
 {% include top.html %}
 
 <body class="">
 
-
+    <!-- The page's header -->
     {% include header.html %} 
 
-    
+    <!-- The page's content -->
     {{ content }}
 
     <!-- Page footer -->
@@ -18,10 +19,13 @@
         </a>
     </div>
     
+    <!-- Include google analytics when running into production. -->
+    <!-- For this to run under Github set "safe:true" within _config.yml -->
     {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
 
+    <!-- Include the javascript librairies -->
     {% include js-librairies.html %}
 
 

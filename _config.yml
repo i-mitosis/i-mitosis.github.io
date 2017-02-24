@@ -41,6 +41,7 @@ timezone: Europe/Paris
 markdown: kramdown
 #theme: minima
 
+highlighter: rouge
 
 gems:
   - jekyll-feed
