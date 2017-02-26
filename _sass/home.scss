@@ -116,6 +116,38 @@
                 font-size: 16px;
             }
         }
+
+    }
+
+    .architecture-example-container {
+        padding: 0 15px 70px 15px;
+
+        .architecture-example-header {
+
+        }
+
+        .architecture-image-container {
+            padding-top: 30px;
+            text-align: center;
+            width: 100%;
+
+            @media screen and (max-width: 750px){
+                display: none;
+            }
+
+            img {
+                margin: 0 auto;
+                @media screen and (min-width: 750px) and (max-width: 950px){
+                    width: 700px;
+                }
+
+                @media screen and (min-width: 950px) and (max-width: 1400px){
+                    width: 900px;
+                }
+
+                
+            }
+        }
     }
 
     .mitosis-technologies-stack-container {
