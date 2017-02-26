@@ -29,8 +29,8 @@ social_links:
 facebook_app_id: 1978319489046223
 
 # Build settings
-# @TODO to add : google_analytics_id: UA-50755011-1
-# @TODO to add : google_site_verification: onQcXpAvtHBrUI5LlroHNE_FP0b2qvFyPq7VZw36iEY
+google_analytics_id: UA-92680404-1
+google_site_verification: sIII5ZDXqWlrMwtfZym2jxmm8anSICOy8t7xqfAwTdQ
 
 github_repository: https://github.com/NirbyApp/generator-mitosis
 
