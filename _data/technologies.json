@@ -25,7 +25,7 @@
             "website": "https://www.docker.com/products/docker-swarm"
         },
         {
-            "label": "Kubernates",
+            "label": "Kubernetes",
             "imageLink": "/assets/images/technologies/kubernates.png",
             "website": "https://kubernetes.io/"
         },
@@ -55,7 +55,7 @@
             "website": "https://www.elastic.co/fr/products/logstash"
         },
         {
-            "label": "Aritfactory",
+            "label": "Artifactory",
             "imageLink": "/assets/images/technologies/artifactory.png",
             "website": "https://www.jfrog.com/open-source/"
         },
